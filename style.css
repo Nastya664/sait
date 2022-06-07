@@ -51,9 +51,10 @@ body {
   position: absolute;
   top: 1px;
   left: 1px;
+  weidth: 10px;
+  height: 10px;
   display: inline-block; 
   background: #8C959D;
   color: #fff;
-  padding: 0.5rem 1rem;
   text-decoration: none;
   border-radius: 3px;
