@@ -50,10 +50,10 @@ body {
 .btn3{
   position: absolute;
   top: 1px;
-  right: 1px;
+  left: 1px;
   display: inline-block; 
   background: #8C959D;
   color: #fff;
-  padding: 1rem 1.5rem;
+  padding: 0.5rem 1rem;
   text-decoration: none;
   border-radius: 3px;
