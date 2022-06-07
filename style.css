@@ -47,3 +47,13 @@ body {
   text-decoration: none;
   border-radius: 3px;
 }
+.btn3{
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  display: inline-block; 
+  background: #8C959D;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  border-radius: 3px;
