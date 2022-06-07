@@ -1,0 +1,49 @@
+:root {
+  --green: #00ff00;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+h1, h2 {
+  font-family: Lato;
+}
+
+.light-theme {
+  --bg: var(--green);
+  --fontColor: var(--black);
+  --btnBg: var(--black);
+  --btnFontColor: var(--white);
+}
+
+.dark-theme {
+  --bg: var(--black);
+  --fontColor: var(--green);
+  --btnBg: var(--white);
+  --btnFontColor: var(--black);
+}
+
+body {
+  background: var(--bg);
+  color: var(--fontColor);
+  font-family: helvetica;
+}
+.btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  color: var(--btnFontColor);
+  background-color: var(--btnBg);
+}
+
+.btn2{
+  display: inline-block; 
+  background: #8C959D;
+  color: #fff;
+  padding: 1rem 5rem;
+  text-decoration: none;
+  border-radius: 3px;
+}
