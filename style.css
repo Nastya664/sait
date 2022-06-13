@@ -77,11 +77,6 @@ body {
 }
 
 .btn4{
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  height: 50px;
-  width: 50px;
   display: inline-block; 
   background-color: var(--white);
   color: var(--blue2);
