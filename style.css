@@ -6,6 +6,7 @@
   --purple: #800080;
   --red: #fa0000;
   --blue: #0057fa;
+  --fiolet: #926eae;
 }
 
 h1, h2 {
@@ -32,6 +33,10 @@ h1, h2 {
 
 .p2-theme {
   --bg: var(--blue);
+}
+
+.p3-theme {
+  --bg: var(--fiolet);
 }
 
 body {
