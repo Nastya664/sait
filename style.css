@@ -78,13 +78,14 @@ body {
 
 .btn4{
   position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 50px;
+  width: 50px;
   display: inline-block; 
   background-color: var(--white);
   color: var(--blue2);
   padding: 1rem 5rem;
   text-decoration: none;
   border-radius: 3px;
-  left: 500px;
-  top: -500px;
-  
 }
