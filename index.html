@@ -14,7 +14,7 @@
       <img src = "images11.jpg" width = 430px; heigh = 500px></img>
     </div>
     <div>
-      <button class="btn">Dark</button>
+      <button class="btn">Green</button>
     </div>
     <script>
       const switcher = document.querySelector('.btn');
@@ -24,10 +24,10 @@
         document.body.classList.toggle('purple-theme');
 
         const className = document.body.className;
-        if(className == "light-theme") {
-            this.textContent = "Purple";
-        } else{
+        if(className == "purple-theme") {
             this.textContent = "Green";
+        } else{
+            this.textContent = "Purple";
         }
       });
     </script>
