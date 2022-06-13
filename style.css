@@ -79,7 +79,7 @@ body {
 .btn4{
   display: inline-block; 
   background-color: var(--blue2);
-  color: var(--white);
+  color: var(--blue2);
   padding: 1rem 5rem;
   text-decoration: none;
   border-radius: 3px;
