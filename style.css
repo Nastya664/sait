@@ -5,6 +5,7 @@
   --besh: #FFE4C4;
   --purple: #800080;
   --red: #fa0000;
+  --blue: #0057fa;
 }
 
 h1, h2 {
@@ -27,6 +28,10 @@ h1, h2 {
 
 .p1-theme{
   --bg: var(--red);
+}
+
+.p1-theme{
+  --bg: var(--blue);
 }
 
 body {
