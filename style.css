@@ -1,5 +1,6 @@
 :root {
   --green: #00ff00;
+  --black: #000000;
   --white: #ffffff;
   --besh: #FFE4C4;
   --purple: #800080;
@@ -20,7 +21,7 @@ h1, h2 {
   --bg: var(--purple);
   --fontColor: var(--besh);
   --btnBg: var(--white);
-  --btnFontColor: var(--purple);
+  --btnFontColor: var(--green);
 }
 
 body {
