@@ -4,6 +4,7 @@
   --white: #ffffff;
   --besh: #FFE4C4;
   --purple: #800080;
+  --red: #fa0000;
 }
 
 h1, h2 {
@@ -24,11 +25,16 @@ h1, h2 {
   --btnFontColor: var(--green);
 }
 
+.p1-theme{
+  --bg: var(--red);
+}
+
 body {
   background: var(--bg);
   color: var(--fontColor);
   font-family: helvetica;
 }
+
 .btn {
   position: absolute;
   top: 5px;
