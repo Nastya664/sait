@@ -26,11 +26,11 @@ h1, h2 {
   --btnFontColor: var(--green);
 }
 
-.p1-theme{
+.p1-theme {
   --bg: var(--red);
 }
 
-.p2-theme{
+.p2-theme {
   --bg: var(--blue);
 }
 
