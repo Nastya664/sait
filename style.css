@@ -2,6 +2,8 @@
   --green: #00ff00;
   --white: #ffffff;
   --black: #000000;
+  --besh: #FFE4C4;
+  --purple: #800080;
 }
 
 h1, h2 {
@@ -18,8 +20,15 @@ h1, h2 {
 .dark-theme {
   --bg: var(--black);
   --fontColor: var(--green);
-  --btnBg: var(--white);
+  --btnBg: var(--purple);
   --btnFontColor: var(--black);
+}
+
+.purple-theme {
+  --bg: var(--purple);
+  --fontColor: var(--besh);
+  --btnBg: var(--white);
+  --btnFontColor: var(--purple);
 }
 
 body {
