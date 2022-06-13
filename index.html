@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="light-theme">
+  <body class="purple-theme">
     <h1><p align="center">Мир историй и магии</p></h1>
     <div style="width: 900px; height: 50px;">Каждое мероприятие, каждая победа - это уникальная история, которую создаём мы. Я хочу поделиться несколькими историями, и ниже ссылка на первую из них, как я (с командой естественно) участвовала в "Университетской гимназии"</div>
     <div style="width: 430px; height: 500px;border: none; float: right; position: relative; top: -50px">
@@ -21,16 +21,13 @@
 
       switcher.addEventListener('click', function() {
         document.body.classList.toggle('light-theme');
-        document.body.classList.toggle('dark-theme');
         document.body.classList.toggle('purple-theme');
 
         const className = document.body.className;
         if(className == "light-theme") {
-            this.textContent = "Dark";
-        }  else if (className == "dark-theme"){
             this.textContent = "Purple";
         } else{
-            this.textContent = "Light";
+            this.textContent = "Green";
         }
       });
     </script>
