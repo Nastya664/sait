@@ -78,8 +78,8 @@ body {
 
 .btn4{
   display: inline-block; 
-  background-color: var(--blue2);
-  color: var(--blue2);
+  background-color: #0000FF;
+  color: #0000FF;
   padding: 1rem 5rem;
   text-decoration: none;
   border-radius: 3px;
