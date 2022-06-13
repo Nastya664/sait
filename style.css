@@ -77,10 +77,11 @@ body {
 
 .btn4{
   display: inline-block; 
-  background: #8C959D;
-  color: #0000FF;
+  background: #0000FF;
+  color: #fff;
   padding: 1rem 5rem;
   text-decoration: none;
   border-radius: 3px;
   float: center;
+  top: -500px;
 }
