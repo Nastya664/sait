@@ -8,6 +8,7 @@
   --blue: #0057fa;
   --fiolet: #9932CC;
   --blue2: #0000FF;
+  --p5: #2af7ed;
 }
 
 h1, h2 {
@@ -38,6 +39,10 @@ h1, h2 {
 
 .p3-theme {
   --bg: var(--fiolet);
+}
+
+.p5-theme {
+  --bg: var(--p5);
 }
 
 body {
